@@ -194,7 +194,64 @@ public class ques3{
         }
     }*/
     //FOR LOOP
-    
+    /*ARRAY IN JAVA
+    import java.util.Scanner;
+    public class ques3{
+        public static void main(String[] args) {
+            String[] playlist = {"song1","song2","song3"};
+            System.out.println(playlist[2]);
+
+}
+    }*/
+    /*Array inJAVA
+    import java.util.Scanner;
+    public class ques3{
+        public static void main(String[] args) {
+            
+            
+            int i = 0;
+            
+            int[] score = new int[5];
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter the array elements:");
+
+            for(i=0;i<5;i++){
+                
+                score[i] = scan.nextInt();
+                
+               }
+               System.out.println("Your Element is Ready:");
+            for(int j = 0; j<score.length; j++){
+                System.out.print(score[j]+ " ");
+
+               
+               }
+          
+        
+             scan.close();
+
+
+        }
+    }
+*/
+/*RANDOM NUM CREATION IN JAVA
+import java.util.Scanner;
+import java.util.Random;
+    public class ques3{
+        public static void main(String[] args) {
+            Random rand = new Random();
+            
+                int newnum = 0;
+               
+                while(newnum != 30){
+                    newnum = rand.nextInt(100);
+            System.out.println(newnum);
+            
+
+
+        }
+        }
+    }*/
     import java.util.Scanner;
     public class ques3{
         public static void main(String[] args) {
