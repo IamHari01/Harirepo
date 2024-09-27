@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class ReverseArray {
@@ -9,7 +8,7 @@ public class ReverseArray {
 			int temp = numbers[start];
 			numbers[start] = numbers[end];
 			numbers[end] = temp;
-			start++;
+			start++; 
 			end--;
 			
 		}
@@ -38,7 +37,7 @@ public class ReverseArray {
 		}
 		System.out.println("Reversed Array");
 		for(int output:array) {
-			System.out.println(output+" ");
+			System.out.print(output+" ");
 			
 		}
 	   
