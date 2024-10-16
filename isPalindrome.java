@@ -18,7 +18,7 @@ public class isPalindrome {
     }
     public static void main(String[] args) {
         isPalindrome Pali = new isPalindrome();
-        String word = "MADAM";
+        String word = "TATA";
         if(Pali.isPalindrome(word)){
             System.out.println("this word is a Palindrome");
         }else{

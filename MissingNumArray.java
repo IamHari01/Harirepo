@@ -15,7 +15,7 @@ public class MissingNumArray {
 	public static void main(String[] args) {
 		
 		MissingNumArray Miss = new MissingNumArray();
-		int[] array = {1,3,4,5,6};
+		int[] array = {1,2,3,4,5,6,8};
 		int Output = Miss.MissNum(array);
 		System.out.println("the Missing Num is"+Output);
 
